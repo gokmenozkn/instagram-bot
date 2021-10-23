@@ -11,7 +11,7 @@ let loggedInUser = null;
 let accountFollowers = null;
 let accountFollowings = null;
 
-app.use(express.json());
+// app.use(express.json());
 
 async function login() {
   try {
